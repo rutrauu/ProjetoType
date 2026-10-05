@@ -19,4 +19,18 @@ function updateStatus(status) {
     console.log(`New status: ${status}`);
 }
 updateStatus("paid");
+function calcLength(input) {
+    if (typeof input === "string") {
+        return input.length;
+    }
+    return input.toString().length;
+}
+console.log(calcLength(55694));
+console.log(calcLength("Hello World!"));
+const languages = ["C#", "Java", "JavaScript"];
+languages.push("PHP");
+let hpptResponse;
+hpptResponse = [200, "ok"];
+let flexData = 10;
+flexData = "information";
 //# sourceMappingURL=primitivo.js.map
